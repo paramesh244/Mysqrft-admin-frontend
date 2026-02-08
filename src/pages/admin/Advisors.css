@@ -1,0 +1,101 @@
+/* Advisors Page Styles */
+.advisor-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.advisor-avatar {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--primary-500), var(--secondary-500));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: var(--font-size-xs);
+    flex-shrink: 0;
+}
+
+.advisor-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.advisor-name {
+    font-weight: 500;
+    color: var(--neutral-900);
+}
+
+.advisor-email {
+    font-size: var(--font-size-xs);
+    color: var(--neutral-500);
+}
+
+.advisor-stat {
+    font-weight: 600;
+    color: var(--neutral-800);
+}
+
+.advisor-conversion {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--success-600);
+    font-weight: 500;
+}
+
+/* Advisor Form */
+.advisor-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.advisor-form .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-4);
+}
+
+/* Performance Cards */
+.performance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+
+.performance-card {
+    background: white;
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+}
+
+.performance-card-value {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-1);
+}
+
+.performance-card-label {
+    font-size: var(--font-size-sm);
+    color: var(--neutral-500);
+}
+
+.performance-card.primary .performance-card-value {
+    color: var(--primary-600);
+}
+
+.performance-card.success .performance-card-value {
+    color: var(--success-600);
+}
+
+.performance-card.warning .performance-card-value {
+    color: var(--warning-600);
+}

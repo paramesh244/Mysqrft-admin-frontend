@@ -1,0 +1,150 @@
+/* Profile Page Styles */
+.profile-performance {
+    margin-bottom: var(--space-6);
+}
+
+.profile-section-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-4);
+}
+
+.profile-card {
+    margin-bottom: var(--space-6);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    padding-bottom: var(--space-5);
+    margin-bottom: var(--space-5);
+    border-bottom: 1px solid var(--neutral-200);
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-500), var(--secondary-500));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: var(--font-size-xl);
+}
+
+.profile-info h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-1);
+}
+
+.profile-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-4);
+}
+
+.profile-detail-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-3);
+    border-radius: var(--radius-md);
+    background: var(--neutral-50);
+}
+
+.profile-detail-item svg {
+    color: var(--primary-500);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.profile-detail-item .detail-label {
+    display: block;
+    font-size: var(--font-size-xs);
+    color: var(--neutral-500);
+    margin-bottom: 2px;
+}
+
+.profile-detail-item .detail-value {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--neutral-900);
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.profile-form .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-4);
+}
+
+.this-month-stats {
+    display: flex;
+    gap: var(--space-8);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-4);
+    background: var(--neutral-50);
+    border-radius: var(--radius-lg);
+    min-width: 120px;
+}
+
+.stat-item .stat-value {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--primary-600);
+}
+
+.stat-item .stat-label {
+    font-size: var(--font-size-sm);
+    color: var(--neutral-500);
+}
+
+/* Properties list in lead detail */
+.properties-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.property-item {
+    padding: var(--space-3);
+    background: var(--neutral-50);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--primary-400);
+}
+
+.property-name {
+    font-weight: 500;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-1);
+}
+
+.property-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--font-size-sm);
+    color: var(--neutral-500);
+}
+
+/* Performance card info variant */
+.performance-card.info .performance-card-value {
+    color: var(--info-600);
+}

@@ -1,0 +1,86 @@
+/* Site Visits Styles */
+.visit-customer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.visit-avatar {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, var(--secondary-400), var(--primary-400));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    flex-shrink: 0;
+}
+
+.visit-schedule {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--neutral-600);
+}
+
+.visit-schedule svg {
+    color: var(--neutral-400);
+}
+
+/* Site Visit Detail */
+.visit-detail-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+
+.visit-detail-avatar {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--secondary-400), var(--primary-400));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: var(--font-size-xl);
+}
+
+.visit-detail-info h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-1);
+}
+
+.visit-detail-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: var(--font-size-sm);
+    color: var(--neutral-500);
+}
+
+.visit-actions-card {
+    background: linear-gradient(135deg, var(--primary-50), var(--secondary-50));
+    border: 1px solid var(--primary-100);
+}
+
+.visit-actions-card .detail-section-title {
+    color: var(--primary-700);
+}
+
+.visit-status-actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.visit-status-actions .btn {
+    justify-content: center;
+}
