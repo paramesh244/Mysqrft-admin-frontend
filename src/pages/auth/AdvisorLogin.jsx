@@ -59,7 +59,7 @@ function AdvisorLogin() {
                         <div className="login-logo">
                             <User size={48} />
                         </div>
-                        <h1 className="login-brand-title">SquareFeet</h1>
+                        <h1 className="login-brand-title">Mysqrft</h1>
                         <p className="login-brand-subtitle">Advisor Portal</p>
                         <p className="login-brand-description">
                             Manage your leads, schedule site visits, and track

@@ -59,7 +59,7 @@ function AdminLogin() {
                         <div className="login-logo">
                             <Building2 size={48} />
                         </div>
-                        <h1 className="login-brand-title">SquareFeet</h1>
+                        <h1 className="login-brand-title">Mysqrft</h1>
                         <p className="login-brand-subtitle">Admin Dashboard</p>
                         <p className="login-brand-description">
                             Manage your real estate projects, leads, and advisors

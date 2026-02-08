@@ -63,7 +63,7 @@ function AdminSidebar({ collapsed, onToggle }) {
                         <Building2 size={24} />
                     </div>
                     {!collapsed && (
-                        <span className="sidebar-brand-text">SquareFeet</span>
+                        <span className="sidebar-brand-text">Mysqrft</span>
                     )}
                 </div>
                 <button
