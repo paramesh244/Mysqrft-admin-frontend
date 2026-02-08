@@ -22,3 +22,50 @@
     border-top: 1px solid var(--neutral-200);
     margin-top: var(--space-4);
 }
+
+/* Form Tabs */
+.form-tabs {
+    display: flex;
+    gap: var(--space-2);
+    margin-bottom: var(--space-6);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--neutral-200);
+    overflow-x: auto;
+}
+
+.form-tab {
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--neutral-500);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.form-tab:hover {
+    color: var(--neutral-700);
+    background: var(--neutral-100);
+}
+
+.form-tab.active {
+    color: var(--primary-600);
+    background: var(--primary-100);
+}
+
+/* Form Sections */
+.form-section {
+    animation: fadeIn var(--transition-base) ease-out;
+}
+
+.form-section-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--neutral-900);
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-2);
+    border-bottom: 2px solid var(--primary-100);
+}
